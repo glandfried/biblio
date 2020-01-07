@@ -1,0 +1,12 @@
+*  # Ignora todo
+!*/ # Salvo las carpetas
+*/download
+
+## Bibtex
+!*.bib
+!*.bst
+
+## Bash
+!*.sh
+
+!.keep
