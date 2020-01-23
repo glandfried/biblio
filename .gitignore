@@ -1,6 +1,6 @@
 *  # Ignora todo
 !*/ # Salvo las carpetas
-*/download
+*download/
 
 ## Bibtex
 !*.bib
