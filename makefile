@@ -1,5 +1,6 @@
-commit:
+push: 
 	sh biblio.sh
+	grep -v "^\s*url\s*=" biblio.bib > biblio_notUrl.bib
 	git add .
 	git commit -m "$(m)"
 	git push origin master
@@ -9,3 +10,7 @@ pull:
 
 biblio_notUrl.bib:
 	grep -v "^\s*url\s*=" biblio.bib > biblio_notUrl.bib
+
+down:
+	sh download.sh $f
+	
