@@ -9,6 +9,7 @@
 !*.tex
 *-concordance.tex
 !*.bib
+!*.cite
 !*.bst
 !*.sty
 !*.cls
