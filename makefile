@@ -1,5 +1,5 @@
 push: 
-	sh biblio.sh
+	sh notUrl.sh
 	grep -v "^\s*url\s*=" biblio.bib > biblio_notUrl.bib
 	git add .
 	git commit -m "$(m)"
