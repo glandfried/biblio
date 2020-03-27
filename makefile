@@ -13,4 +13,7 @@ biblio_notUrl.bib:
 
 down:
 	sh download.sh $f
+
+topic:
+	sh topic.sh topic/$t
 	
