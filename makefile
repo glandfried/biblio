@@ -11,9 +11,6 @@ pull:
 biblio_notUrl.bib:
 	grep -v "^\s*url\s*=" biblio.bib > biblio_notUrl.bib
 
-download:
-	sh download.sh
-
 down:
 	sh download.sh $f
 
