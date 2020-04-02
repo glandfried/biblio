@@ -1,11 +1,15 @@
 abbeel2004-apprenticeshipViaIRL,
 alger2016-repoInverseReinforcementLearning,
 argall2009-learningFromDemonstration,
+finn2016-deepInverseOptimalControl
 hadfieldMenell2016-cooperativeIRL,
 ho2016-generativeAdversialImitationLearning,
+levine2011-GPIRL
 ng2000-algorithmsForIRL,
 pomerleau1991-behavioralCloning,
 ross2011-imitationLearning,
 russell1998-learningAgents,
+schaal1999-imitationLearning
+wulfmeier2015-deepMaxEntropyIRL
 ziebart2008-inverseReinforcementLearning,
 ziebart2010-interactionViaMaximumCausalEntropy,
