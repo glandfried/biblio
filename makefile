@@ -16,4 +16,12 @@ down:
 
 download_topic:
 	sh topic.sh topic/$t
+
+setup:
+	sudo cp -f cite.sh /usr/local/bin/cite
+	sudo chmod +x /usr/local/bin/cite
+
+setdown:
+	- sudo rm -f /usr/local/bin/cite
+
 	
