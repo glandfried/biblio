@@ -24,4 +24,6 @@ setup:
 setdown:
 	- sudo rm -f /usr/local/bin/cite
 
+mirrors:
+	git remote set-url --add origin git@gitlab.licar.exp.dc.uba.ar:gaming/biblio.git 
 	
