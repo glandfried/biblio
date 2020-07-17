@@ -10,7 +10,7 @@ then
   then
     cat $name.cite | while read line
     do
-      sed -n "/$line/,/^}/p" $biblio >> $name.bib
+      sed -n "/@.*{$line,/,/^}/p" $biblio >> $name.bib
     done
   else
     echo "The biblio do not exist"
