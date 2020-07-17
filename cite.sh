@@ -4,7 +4,7 @@ name="${file%.*}"
 biblio=$2
 if [ -f "$file" ]
 then
-  grep cite $file |  sed -e 's/}/}\n/g'   |  grep -o '\cite{.*}' | sed -e 's/\,/\n/g' | sed 's/cite{//g' | sed 's/}//g' | sed 's/ //g' > $name.cite
+  grep cite $file |  sed -e 's/}/}\n/g'   |  grep -o '\cite{.*}' | sed -e 's/\,/\n/g' | sed 's/cite{//g' | sed 's/}//g' | sed 's/ //g' | sort | uniq > $name.cite
   echo '' > $name.bib
   if [ -f "$biblio" ]
   then
