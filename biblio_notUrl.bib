@@ -1,3 +1,8 @@
+\AtEveryBibitem{%
+  \clearfield{note}%
+  \clearfield{url}%
+}
+
 Archivo fuente: biblio.bib
 Repositorio fuente: gitlab.licar.exp.dc.uba.ar:gaming/biblio.git
 
@@ -3761,6 +3766,18 @@ publisher={Public Library of Science}
   howpublished = {\url{https://github.com/glandfried/TrueSkillThroughTime/releases/download/doc/landfried-learning.pdf}}
 }
 
+@unpublished{landfried2022-transitions,
+  author       = {Landfried, Gustavo},
+  title        = {{Multilevel selection in causal models: the 
+                   multiplicative nature of evolutionary and
+                   probabilistic selection processes as the general
+                   driver for the irreversibility emergence of
+                   cooperation and specialization.}},
+  month        = jan,
+  year         = 2022,
+  doi          = {10.5281/zenodo.6305008},
+}
+
 @book{lansing2006-perfectOrder,
   title={Perfect order: Recognizing complexity in Bali},
   author={Lansing, John Stephen},
@@ -5623,6 +5640,16 @@ publisher={National Acad Sciences}
   pages={20190498},
   year={2020},
   publisher={The Royal Society},
+}
+
+@inproceedings{riedmiller1993-RPROP,
+  title={A direct adaptive method for faster backpropagation learning: The RPROP algorithm},
+  author={Riedmiller, Martin and Braun, Heinrich},
+  booktitle={IEEE international conference on neural networks},
+  pages={586--591},
+  year={1993},
+  organization={IEEE},
+  note={Método usado para optimizar los paramentros en minka2018-trueskill2}
 }
 
 @article{rigoli2017-bayesianAccountOfContextualEffectsInChoice,
