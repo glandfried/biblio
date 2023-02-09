@@ -1,5 +1,7 @@
 #!/bin/bash
 
+#ssh address-of-B 'wget -O - http://server-C/whatever' >> whatever
+
 BASEDIR=$(dirname "$0")
 
 if [ $# \> 0 ]
