@@ -1,6 +1,7 @@
 *  # Ignora todo
 !*/ # Salvo las carpetas
 *download/
+notas/
 
 ########################
 # Archivos que NO ignora
